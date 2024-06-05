@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="urn://x-artefacts-some-oiv-ru/smev-interaction/smth/1.0" 
+           targetNamespace="https://ya.mznn.ru/bbb/1.1.1" 
+		   elementFormDefault="qualified" 
+		   attributeFormDefault="unqualified">
+                                                                                                                                            
+<xs:element name="VisitingBeremenPacient">
+<xs:complexType>
+<xs:sequence> 
+    
+      <xs:element name="item" maxOccurs="unbounded">    
+      <xs:complexType>
+         <xs:sequence>
+		    <xs:element name="id" type="xs:string" />                         <!-- Идентификатор организации посещения пациентом -->
+            <xs:element name="fam" type="xs:string" />                        <!-- Фамилия пациента -->
+            <xs:element name="name" type="xs:string" />                       <!-- Имя пациента -->
+            <xs:element name="otch" type="xs:string" nillable="true"/>        <!-- Отчество пациента -->
+			<xs:element name="dr" type="xs:date" />                           <!-- Дата рождения пациента -->
+            <xs:element name="snils" type="xs:string" />		              <!-- СНИЛС пациента -->				
+			<xs:element name="result" type="xs:string" nillable="true"/>      <!-- результат посещения медицинского учреждения пациентом -->
+            <xs:element name="datevisit" type="xs:date" nillable="true"/>	  <!-- дата посещения медицинского учреждения пациентом -->		
+         </xs:sequence>
+      </xs:complexType>	  
+      </xs:element> 
+	  
+</xs:sequence>	
+</xs:complexType>	
+</xs:element>	  
+   
+</xs:schema>

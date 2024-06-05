@@ -20,7 +20,7 @@ namespace WinFormsApp1
             else
                 this.ds = new DataSet();
 
-            this.ds.ReadXml(@"D:\ex2\table2.xml");
+            this.ds.ReadXml(@"data\table2.xml");
 
             this.dataGridView1.DataSource = this.ds.Tables[0];
 
@@ -63,7 +63,7 @@ namespace WinFormsApp1
             else
                 this.ds = new DataSet();
 
-            this.ds.ReadXmlSchema(@"D:\ex2\VisitingBeremenPacient.xsd");
+            this.ds.ReadXmlSchema(@"data\VisitingBeremenPacient.xsd");
 
             DataRow workRow = this.ds.Tables[0].NewRow();
             workRow["id"] = "111111";
@@ -75,7 +75,7 @@ namespace WinFormsApp1
             workRow["datevisit"] = "2010-11-11";
             this.ds.Tables[0].Rows.Add(workRow);
 
-            this.ds.ReadXml(@"D:\ex2\VisitingBeremenPacient.xml");
+            this.ds.ReadXml(@"data\VisitingBeremenPacient.xml");
 
             this.dataGridView1.DataSource = this.ds.Tables[0];
 

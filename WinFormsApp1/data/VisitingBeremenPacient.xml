@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisitingBeremenPacient xmlns="https://ya.mznn.ru/bbb/1.1.1">
+
+  <item>
+    <id>23434</id>
+    <fam>fam1</fam>
+    <name>name1</name>
+    <otch>otch1</otch>
+    <dr>2011-11-11</dr>
+    <snils>111-111-111 11</snils>
+    <result>result1</result>
+    <datevisit>2011-11-11</datevisit>
+  </item>
+  <item>
+    <id>23434</id>
+    <fam>fam1</fam>
+    <name>name1</name>
+    <otch>otch1</otch>
+    <dr>2011-11-11</dr>
+    <snils>111-111-111 11</snils>
+    <result>result1</result>
+    <datevisit>2011-11-11</datevisit>
+  </item>
+  <item>
+    <id>23434</id>
+    <fam>fam1</fam>
+    <name>name1</name>
+    <otch>otch1</otch>
+    <dr>2011-11-11</dr>
+    <snils>111-111-111 11</snils>
+    <result>result1</result>
+    <datevisit>2011-11-11</datevisit>
+  </item>
+  <item>
+    <id>23434</id>
+    <fam>fam1</fam>
+    <name>name1</name>
+    <otch>otch1</otch>
+    <dr>2011-11-11</dr>
+    <snils>111-111-111 11</snils>
+    <result>result1</result>
+    <datevisit>2011-11-11</datevisit>
+  </item>
+  <item>
+    <id>23434</id>
+    <fam>fam1</fam>
+    <name>name1</name>
+    <otch>otch1</otch>
+    <dr>2011-11-11</dr>
+    <snils>111-111-111 11</snils>
+    <result>result1</result>
+    <datevisit>2011-11-11</datevisit>
+  </item>
+
+</VisitingBeremenPacient>
